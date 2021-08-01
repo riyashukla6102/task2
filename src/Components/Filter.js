@@ -27,14 +27,15 @@ const Filter = (props)=> {
                             <input type="radio"  id="datebetween" name="date"></input>
                             <label htmlFor='datebetween'>Date Between</label>
                             <div>
-                            <input type="date" placeholder="From" style={{marginLeft:'60px'}}></input>
-                            <input type="date" placeholder="To"></input>
+                            <input type="date" placeholder="From" style={{marginLeft:'40px'}}></input>
+
+                            <input type="date" placeholder="To" style={{marginLeft:'40px'}}></input>
                             </div>
                         </div>
                         <div className={styles.subcontent}>
                         <input type="radio" id="specificdate" name='date' ></input>
                             <label htmlFor='specificdate'>Specific Date</label>
-                            <input type="text" style={{marginLeft:'60px'}} placeholder="Select" ></input>
+                            <input type="date" style={{marginLeft:'60px'}} placeholder="Select" ></input>
                         </div>
                     </div>
                 </div>
